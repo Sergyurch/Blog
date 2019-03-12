@@ -16,8 +16,6 @@ group :development, :test do
   gem 'byebug',  '9.0.6', platform: :mri
 end
 
-gem 'rails_12factor', group: :production
-
 group :production do
   gem 'pg', '0.20.0'
 end
